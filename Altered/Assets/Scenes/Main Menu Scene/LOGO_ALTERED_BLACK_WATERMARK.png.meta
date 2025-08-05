@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 18f5bfc3c157ad84b88f90c25061aba8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 312249302830130518
+    second: LOGO_ALTERED_BLACK_WATERMARK_0
+  - first:
+      213: 263054058517950905
+    second: LOGO_ALTERED_BLACK_WATERMARK_1
+  - first:
+      213: 1560760492798258715
+    second: LOGO_ALTERED_BLACK_WATERMARK_2
+  - first:
+      213: -1189929278059010561
+    second: LOGO_ALTERED_BLACK_WATERMARK_3
+  - first:
+      213: 357171751222574309
+    second: LOGO_ALTERED_BLACK_WATERMARK_4
+  - first:
+      213: 4032204972823515411
+    second: LOGO_ALTERED_BLACK_WATERMARK_5
+  - first:
+      213: 1852748115659929485
+    second: LOGO_ALTERED_BLACK_WATERMARK_6
+  - first:
+      213: 982570642977279726
+    second: LOGO_ALTERED_BLACK_WATERMARK_7
+  - first:
+      213: 2229875161408881852
+    second: LOGO_ALTERED_BLACK_WATERMARK_8
+  - first:
+      213: -1837582012902385942
+    second: LOGO_ALTERED_BLACK_WATERMARK_9
+  - first:
+      213: -4556850020390654711
+    second: LOGO_ALTERED_BLACK_WATERMARK_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LOGO_ALTERED_BLACK_WATERMARK_0
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 115
+        width: 2313
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655ad882615555400800000000000000
+      internalID: 312249302830130518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO_ALTERED_BLACK_WATERMARK_1
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 11
+        width: 103
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1ffa2c54e86a300800000000000000
+      internalID: 263054058517950905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO_ALTERED_BLACK_WATERMARK_2
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 11
+        width: 138
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e24b0266fe8a510800000000000000
+      internalID: 1560760492798258715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO_ALTERED_BLACK_WATERMARK_3
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 11
+        width: 131
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5a47940a58c7fe0800000000000000
+      internalID: -1189929278059010561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO_ALTERED_BLACK_WATERMARK_4
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 9
+        width: 114
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ecfc6bb0dde4f400800000000000000
+      internalID: 357171751222574309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO_ALTERED_BLACK_WATERMARK_5
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 9
+        width: 138
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31195ba2f0545f730800000000000000
+      internalID: 4032204972823515411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO_ALTERED_BLACK_WATERMARK_6
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 11
+        width: 131
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d873f2c489846b910800000000000000
+      internalID: 1852748115659929485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO_ALTERED_BLACK_WATERMARK_7
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 11
+        width: 114
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee436d3bcac2ad00800000000000000
+      internalID: 982570642977279726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO_ALTERED_BLACK_WATERMARK_8
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 11
+        width: 105
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb44e3915ab12fe10800000000000000
+      internalID: 2229875161408881852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO_ALTERED_BLACK_WATERMARK_9
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 11
+        width: 131
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae65e4b25e89f76e0800000000000000
+      internalID: -1837582012902385942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO_ALTERED_BLACK_WATERMARK_10
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 11
+        width: 114
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d22e7bc01d2c0c0800000000000000
+      internalID: -4556850020390654711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LOGO_ALTERED_BLACK_WATERMARK_0: 312249302830130518
+      LOGO_ALTERED_BLACK_WATERMARK_1: 263054058517950905
+      LOGO_ALTERED_BLACK_WATERMARK_10: -4556850020390654711
+      LOGO_ALTERED_BLACK_WATERMARK_2: 1560760492798258715
+      LOGO_ALTERED_BLACK_WATERMARK_3: -1189929278059010561
+      LOGO_ALTERED_BLACK_WATERMARK_4: 357171751222574309
+      LOGO_ALTERED_BLACK_WATERMARK_5: 4032204972823515411
+      LOGO_ALTERED_BLACK_WATERMARK_6: 1852748115659929485
+      LOGO_ALTERED_BLACK_WATERMARK_7: 982570642977279726
+      LOGO_ALTERED_BLACK_WATERMARK_8: 2229875161408881852
+      LOGO_ALTERED_BLACK_WATERMARK_9: -1837582012902385942
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
