@@ -12,6 +12,7 @@ public class MenuButtons : MonoBehaviour
         UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.transform.parent.gameObject.SetActive(false);
     }
     
+    // To make a button change scenes.
     public void ChangeScene()
     {
         
