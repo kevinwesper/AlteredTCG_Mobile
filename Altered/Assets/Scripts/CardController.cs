@@ -1,23 +1,60 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 // Class to control the card. showing it's sides, loading the artwork.
 public class CardController : MonoBehaviour
 {
-    [SerializeField] private GameObject frontCard;
+    [SerializeField] private SpriteRenderer frontCard;
     [SerializeField] private TextAsset dataFile;
     [SerializeField] private CardData cardData;
+    [SerializeField] private string cardPath;
+    private Sprite cardSprite;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        StartCoroutine(GetTexture());
+
+
+
+
+        /*
         string dataName = string.Format(dataFile.name);
         Debug.Log("name = " + dataName);
 
         cardData = JsonUtility.FromJson<CardData>(dataName);
 
         Debug.Log("path = " + cardData.imagePath);
+        */
+    }
+
+    IEnumerator GetTexture()
+    {
+        UnityWebRequest www = UnityWebRequestTexture.GetTexture(cardPath);
+        yield return www.SendWebRequest();
+
+        if (www.result != UnityWebRequest.Result.Success)
+        {
+            Debug.LogError(www.error);
+        }
+        else
+        {
+            Texture2D myTexture = DownloadHandlerTexture.GetContent(www);
+
+            cardSprite = Sprite.Create(myTexture, new Rect(0.0f, 0.0f, myTexture.width, myTexture.height), new Vector2(0.5f, 0.5f), 100.0f);
+            frontCard.sprite = cardSprite;
+        }
+    }
+
+    void Update()
+    {
+        if (frontCard.sprite != null)
+        {
+            transform.Rotate(0, 0.1f, 0, Space.Self);
+        }
     }
 }
 
