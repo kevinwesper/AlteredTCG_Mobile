@@ -17,22 +17,19 @@ public class CardController : MonoBehaviour
     void Start()
     {
         StartCoroutine(GetTexture());
+    }
 
-
-
-
-        /*
+    // Download and return the image of the card from string.
+    IEnumerator GetTexture()
+    {
         string dataName = string.Format(dataFile.name);
         Debug.Log("name = " + dataName);
 
+        // Doesnt work, I think it cant find the string imagepath cause its inside of another group of variables.
         cardData = JsonUtility.FromJson<CardData>(dataName);
 
-        Debug.Log("path = " + cardData.imagePath);
-        */
-    }
+        //Debug.Log("path = " + cardData.imagePath);
 
-    IEnumerator GetTexture()
-    {
         UnityWebRequest www = UnityWebRequestTexture.GetTexture(cardPath);
         yield return www.SendWebRequest();
 
@@ -53,7 +50,7 @@ public class CardController : MonoBehaviour
     {
         if (frontCard.sprite != null)
         {
-            transform.Rotate(0, 0.1f, 0, Space.Self);
+            transform.Rotate(0, 0.2f, 0, Space.Self);
         }
     }
 }
