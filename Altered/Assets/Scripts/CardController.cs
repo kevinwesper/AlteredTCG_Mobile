@@ -22,11 +22,11 @@ public class CardController : MonoBehaviour
     // Download and return the image of the card from string.
     IEnumerator GetTexture()
     {
-        string dataName = string.Format(dataFile.name);
-        Debug.Log("name = " + dataName);
+        //string dataName = string.Format(dataFile.name);
+        //Debug.Log("name = " + dataName);
 
         // Doesnt work, I think it cant find the string imagepath cause its inside of another group of variables.
-        cardData = JsonUtility.FromJson<CardData>(dataName);
+        //cardData = JsonUtility.FromJson<CardData>(dataName);
 
         //Debug.Log("path = " + cardData.imagePath);
 
